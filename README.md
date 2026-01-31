@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import Module from 'https://cdn.jsdelivr.net/gh/stdlib-js/wasm-module-wrapper@esm/index.mjs';
+import Module from 'https://cdn.jsdelivr.net/gh/stdlib-js/wasm-module-wrapper@v0.1.0-esm/index.mjs';
 ```
 
 #### Module( binary, memory\[, imports] )
@@ -124,7 +124,7 @@ Returns a boolean indicating whether a provided list of values is a view of the 
 <script type="module">
 
 import hasWebAssemblySupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-wasm-support@esm/index.mjs';
-import Module from 'https://cdn.jsdelivr.net/gh/stdlib-js/wasm-module-wrapper@esm/index.mjs';
+import Module from 'https://cdn.jsdelivr.net/gh/stdlib-js/wasm-module-wrapper@v0.1.0-esm/index.mjs';
 
 function main() {
     if ( !hasWebAssemblySupport() ) {
