@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import Module from 'https://cdn.jsdelivr.net/gh/stdlib-js/wasm-module-wrapper@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/wasm-module-wrapper/tags). For example,
+
+```javascript
 import Module from 'https://cdn.jsdelivr.net/gh/stdlib-js/wasm-module-wrapper@v0.1.0-deno/mod.js';
 ```
 
@@ -119,7 +124,7 @@ Returns a boolean indicating whether a provided list of values is a view of the 
 
 ```javascript
 import hasWebAssemblySupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-wasm-support@deno/mod.js';
-import Module from 'https://cdn.jsdelivr.net/gh/stdlib-js/wasm-module-wrapper@v0.1.0-deno/mod.js';
+import Module from 'https://cdn.jsdelivr.net/gh/stdlib-js/wasm-module-wrapper@deno/mod.js';
 
 function main() {
     if ( !hasWebAssemblySupport() ) {
