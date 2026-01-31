@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/wasm-module-wrapper",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "WebAssembly module wrapper.",
   "license": "Apache-2.0",
   "author": {
@@ -46,7 +46,7 @@
     "@stdlib/assert-is-function": "^0.2.2",
     "@stdlib/assert-is-nonnegative-integer": "^0.2.2",
     "@stdlib/math-base-special-ceil": "^0.2.2",
-    "@stdlib/ndarray-base-bytes-per-element": "^0.2.2",
+    "@stdlib/ndarray-base-bytes-per-element": "^0.3.0",
     "@stdlib/object-assign": "^0.2.2",
     "@stdlib/strided-base-read-dataview": "github:stdlib-js/strided-base-read-dataview#main",
     "@stdlib/strided-base-write-dataview": "github:stdlib-js/strided-base-write-dataview#main",
