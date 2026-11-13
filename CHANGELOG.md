@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-27)
+## Unreleased (2026-11-13)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`525ef89`](https://github.com/stdlib-js/stdlib/commit/525ef89c72cd57abf9c8a0562ba1e7a3d345ad91) - **style:** clean-up [(#16475)](https://github.com/stdlib-js/stdlib/pull/16475) _(by Philipp Burckhardt)_
 -   [`36e85a3`](https://github.com/stdlib-js/stdlib/commit/36e85a384cb6572c479792c0ca2bc426b465cfc2) - **bench:** refactor to use string interpolation in `wasm` [(#11588)](https://github.com/stdlib-js/stdlib/pull/11588) _(by Karan Anand)_
 
 </details>
@@ -24,9 +25,10 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Karan Anand
+-   Philipp Burckhardt
 
 </section>
 
